@@ -1,0 +1,53 @@
+.backdrop {
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    z-index: 9997;
+}
+
+.presentation {
+    --top: 40%;
+    position: absolute;
+    top: var(--top);
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    z-index: 9996;
+    pointer-events: none;
+    user-select: none;
+    mix-blend-mode: color-burn;
+}
+
+.presentation h1 {
+    --size: 7rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--size);
+    color: var(--color-1);
+    margin-bottom: 0.25em;
+    white-space: nowrap;
+}
+
+.presentation p {
+    color: var(--color-2);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.hint {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 0.8rem;
+    pointer-events: none;
+    z-index: 9997;
+    white-space: nowrap;
+}

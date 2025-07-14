@@ -1,0 +1,26 @@
+/* Estilos adicionales para el formulario */
+#form {
+    transition: all 0.3s ease;
+    max-width: 90%;
+}
+
+#form p {
+    font-size: 14px;
+    color: #333;
+}
+
+#form input[type="text"] {
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#form input[type="text"]:focus {
+    border-color: #ecf01f;
+}
+
+#form button:hover {
+    background-color: #d4d712;
+    transition: background-color 0.3s ease;
+}
