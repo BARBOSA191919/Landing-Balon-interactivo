@@ -6,7 +6,7 @@ Una landing page interactiva con animaciones avanzadas de un balón que rebota, 
 
 Esta landing page presenta una experiencia visual única con un balón interactivo que responde a las acciones del usuario. Utiliza animaciones fluidas, formularios dinámicos y una arquitectura moderna para crear una experiencia inmersiva y atractiva.
 
-## 🖼️ Capturas de Pantalla
+## 📷 Capturas de Pantalla
 
 ### Vista Principal
 <img width="1867" height="1025" alt="Image" src="https://github.com/user-attachments/assets/0914a507-6503-41af-9ba1-1e07cbe6e370" />
