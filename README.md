@@ -67,7 +67,6 @@ barbosa191919-landing-balon-interactivo/
         └── ui/
             └── form-handler.js    # Manejo del formulario
 ```
-
 ## 🧩 Componentes y Módulos
 
 ### Módulos Core
